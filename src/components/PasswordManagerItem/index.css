@@ -1,0 +1,79 @@
+.password-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: solid 3px #64748b;
+  border-radius: 10px;
+  height: 100px;
+  width: 300px;
+  margin: 8px;
+}
+.password-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: 80px;
+}
+.password-profile {
+  border-radius: 30px;
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  align-self: center;
+  text-align: center;
+}
+.password-profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+}
+.delete-icon {
+  width: 30px;
+  height: 30px;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'roboto';
+}
+.password-stars {
+  width: 40px;
+}
+.yellow {
+  background-color: #f59e0b;
+}
+.green {
+  background-color: #10b981;
+}
+.orange {
+  background-color: #f97316;
+}
+.light-green {
+  background-color: #14b8a6;
+}
+.red {
+  background-color: #b91c1c;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+.password{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 400;
+}
